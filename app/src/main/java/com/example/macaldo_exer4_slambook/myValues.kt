@@ -1,4 +1,34 @@
 package com.example.macaldo_exer4_slambook
 
-class myValues {
-}
+class myValues (
+    var greeting: String = "Hello!",
+    var nameLabel: String = "Name",
+    var nicknameLabel: String = "Nickname",
+    var ageLabel: String = "Age",
+    var birthdayLabel: String = "When is your birthday?",
+    var phoneNumberLabel: String = "Phone number",
+    var emailLabel: String = "What is your email address?",
+    var courseLabel: String = "What is your course?",
+    var dreamLabel: String = "What is your ultimate dream?",
+    var crushLabel: String = "Who is your secret crush?",
+    var messageLabel: String = "What is your message for me?",
+    var name: String = "",
+    var nickname: String = "",
+    var age: String = "",
+    var birthday: String = "",
+    var phoneNumber: String = "",
+    var email: String = "",
+    var course: String = "",
+    var dream: String = "",
+    var crush: String = "",
+    var message: String = "",
+    var nameHint: String = "Enter Name",
+    var nicknameHint: String = "Enter Nickname",
+    var ageHint: String = "Enter Age",
+    var birthdayHint: String = "Enter Birthday",
+    var phoneNumberHint: String = "Enter Phone Number",
+    var emailHint: String = "Enter Email Address",
+    var courseHint: String = "Enter Course",
+    var dreamHint: String = "Enter Dream",
+    var crushHint: String = "Enter Name of Crush"
+)
