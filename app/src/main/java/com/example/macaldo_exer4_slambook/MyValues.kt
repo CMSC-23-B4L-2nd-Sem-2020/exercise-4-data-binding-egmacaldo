@@ -1,6 +1,6 @@
 package com.example.macaldo_exer4_slambook
 
-class myValues (
+class MyValues (
     var greeting: String = "Hello!",
     var nameLabel: String = "Name",
     var nicknameLabel: String = "Nickname",

@@ -8,7 +8,7 @@ import com.example.macaldo_exer4_slambook.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
-    private val myValues: myValues = myValues()
+    private val myValues: MyValues = MyValues()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
