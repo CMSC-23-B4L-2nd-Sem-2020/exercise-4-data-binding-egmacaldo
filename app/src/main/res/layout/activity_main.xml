@@ -17,11 +17,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:lineSpacingExtra="36sp"
             android:paddingTop="16dp"
             android:paddingBottom="16dp"
             android:text="@={myValues.greeting}"
             android:textAlignment="center"
-            android:textColor="@android:color/darker_gray" />
+            android:textColor="@android:color/darker_gray"
+            android:textSize="36sp" />
+
     </LinearLayout>
 </layout>
