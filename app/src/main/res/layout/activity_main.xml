@@ -85,7 +85,16 @@
                 android:text="@={myValues.phoneNumber}"
                 style="@style/editTextStyle" />
 
+            <TextView
+                android:id="@+id/emailQ"
+                android:text="@={myValues.emailLabel}"
+                style="@style/labelStyle" />
 
+            <EditText
+                android:id="@+id/email"
+                android:hint="@string/emailHint"
+                android:text="@={myValues.email}"
+                style="@style/editTextStyle" />
 
 
         </LinearLayout>
