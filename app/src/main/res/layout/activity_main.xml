@@ -20,63 +20,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/nameDisplay"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
-                android:text="@={myValues.name}"
-                android:textAlignment="center"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                tools:visibility="gone" />
-
-            <TextView
-                android:id="@+id/nicknameDisplay"
-                android:text="@={myValues.nickname}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/ageDisplay"
-                android:text="@={myValues.age}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/birthdayDisplay"
-                android:text="@={myValues.birthday}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/phoneDisplay"
-                android:text="@={myValues.phoneNumber}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/emailDisplay"
-                android:text="@={myValues.email}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/courseDisplay"
-                android:text="@={myValues.course}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/dreamDisplay"
-                android:text="@={myValues.dream}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/messageDisplay"
-                android:text="@={myValues.message}"
-                style="@style/displayStyle" />
-
-            <TextView
-                android:id="@+id/thankuDisplay"
-                android:text="@={myValues.thankuLabel}"
-                style="@style/displayStyle" />
-
-            <TextView
                 android:id="@+id/greeting"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -208,6 +151,70 @@
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ageDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.age}" />
+
+            <TextView
+                android:id="@+id/thankuDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.thankuLabel}" />
+
+            <TextView
+                android:id="@+id/nameDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:text="@={myValues.name}"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/nicknameDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.nickname}" />
+
+            <TextView
+                android:id="@+id/birthdayDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.birthday}" />
+
+            <TextView
+                android:id="@+id/phoneDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.phoneNumber}" />
+
+            <TextView
+                android:id="@+id/emailDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.email}" />
+
+            <TextView
+                android:id="@+id/courseDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.course}" />
+
+            <TextView
+                android:id="@+id/dreamDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.dream}" />
+
+            <TextView
+                android:id="@+id/crushDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.crush}" />
+
+
+            <TextView
+                android:id="@+id/messageDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.message}" />
+
 
         </LinearLayout>
     </ScrollView>
