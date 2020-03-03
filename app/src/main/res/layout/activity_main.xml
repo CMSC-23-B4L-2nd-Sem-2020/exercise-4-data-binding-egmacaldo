@@ -107,6 +107,17 @@
                 android:text="@={myValues.course}"
                 style="@style/editTextStyle" />
 
+            <TextView
+                android:id="@+id/dreamQ"
+                android:text="@={myValues.dreamLabel}"
+                style="@style/labelStyle" />
+
+            <EditText
+                android:id="@+id/dream"
+                android:hint="@string/dreamHint"
+                android:text="@={myValues.dream}"
+                style="@style/editTextStyle" />
+
         </LinearLayout>
     </ScrollView>
 </layout>
