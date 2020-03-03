@@ -96,6 +96,16 @@
                 android:text="@={myValues.email}"
                 style="@style/editTextStyle" />
 
+            <TextView
+                android:id="@+id/courseQ"
+                android:text="@={myValues.courseLabel}"
+                style="@style/labelStyle" />
+
+            <EditText
+                android:id="@+id/course"
+                android:hint="@string/courseHint"
+                android:text="@={myValues.course}"
+                style="@style/editTextStyle" />
 
         </LinearLayout>
     </ScrollView>
