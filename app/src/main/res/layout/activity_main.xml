@@ -63,6 +63,17 @@
                 android:text="@={myValues.age}"
                 style="@style/editTextStyle" />
 
+            <TextView
+                android:id="@+id/birthdayQ"
+                android:text="@={myValues.birthdayLabel}"
+                style="@style/labelStyle" />
+
+            <EditText
+                android:id="@+id/birthday"
+                android:hint="@string/birthdayHint"
+                android:text="@={myValues.birthday}"
+                style="@style/editTextStyle" />
+
         </LinearLayout>
     </ScrollView>
 </layout>
