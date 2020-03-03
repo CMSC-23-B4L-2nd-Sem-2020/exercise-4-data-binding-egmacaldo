@@ -32,28 +32,14 @@
 
             <TextView
                 android:id="@+id/nameQ"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_weight="1"
                 android:text="@={myValues.nameLabel}"
-                android:textAlignment="viewStart"
-                android:textSize="18sp" />
+                style="@style/labelStyle" />
 
             <EditText
                 android:id="@+id/name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:layout_weight="1"
-                android:ems="10"
                 android:hint="@string/nameHint"
-                android:inputType="textPersonName"
                 android:text="@={myValues.name}"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="20sp" />
+                style="@style/editTextStyle" />
 
         </LinearLayout>
     </ScrollView>
