@@ -139,6 +139,18 @@
                 android:text="@={myValues.message}"
                 style="@style/editTextStyle" />
 
+            <Button
+                android:id="@+id/done_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#E91E63"
+                android:text="@={myValues.doneLabel}"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
         </LinearLayout>
     </ScrollView>
 </layout>

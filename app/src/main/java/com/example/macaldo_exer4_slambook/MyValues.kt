@@ -12,6 +12,7 @@ class MyValues (
     var dreamLabel: String = "What is your ultimate dream?",
     var crushLabel: String = "Who is your secret crush?",
     var messageLabel: String = "What is your message for me?",
+    var doneLabel: String = "DONE",
     var name: String = "",
     var nickname: String = "",
     var age: String = "",
