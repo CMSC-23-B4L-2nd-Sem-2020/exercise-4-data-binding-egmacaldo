@@ -21,7 +21,7 @@
             <TextView
                 android:id="@+id/greeting"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
@@ -39,6 +39,28 @@
                 android:id="@+id/name"
                 android:hint="@string/nameHint"
                 android:text="@={myValues.name}"
+                style="@style/editTextStyle" />
+
+            <TextView
+                android:id="@+id/nicknameQ"
+                android:text="@={myValues.nicknameLabel}"
+                style="@style/labelStyle" />
+
+            <EditText
+                android:id="@+id/nickname"
+                android:hint="@string/nicknameHint"
+                android:text="@={myValues.nickname}"
+                style="@style/editTextStyle" />
+
+            <TextView
+                android:id="@+id/ageQ"
+                android:text="@={myValues.ageLabel}"
+                style="@style/labelStyle" />
+
+            <EditText
+                android:id="@+id/age"
+                android:hint="@string/ageHint"
+                android:text="@={myValues.age}"
                 style="@style/editTextStyle" />
 
         </LinearLayout>

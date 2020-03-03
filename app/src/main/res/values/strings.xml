@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">macaldo_exer4_SlamBook</string>
     <string name="nameHint">Enter Name</string>
+    <string name="nicknameHint">Enter Nickname</string>
+    <string name="ageHint">Enter Age</string>
+    <string name="birthdayHint">Enter Birthday</string>
+    <string name="phoneHint">Enter Phone Number</string>
+    <string name="emailHint">Enter Email Address</string>
+    <string name="courseHint">Enter Course</string>
+    <string name="dreamHint">Enter Dream</string>
+    <string name="crushHint">Enter Name of Crush</string>
 </resources>
