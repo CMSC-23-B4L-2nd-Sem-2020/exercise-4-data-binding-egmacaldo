@@ -33,6 +33,47 @@
 
             <TextView
                 android:id="@+id/nicknameDisplay"
+                android:text="@={myValues.nickname}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/ageDisplay"
+                android:text="@={myValues.age}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/birthdayDisplay"
+                android:text="@={myValues.birthday}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/phoneDisplay"
+                android:text="@={myValues.phoneNumber}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/emailDisplay"
+                android:text="@={myValues.email}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/courseDisplay"
+                android:text="@={myValues.course}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/dreamDisplay"
+                android:text="@={myValues.dream}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/messageDisplay"
+                android:text="@={myValues.message}"
+                style="@style/displayStyle" />
+
+            <TextView
+                android:id="@+id/thankuDisplay"
+                android:text="@={myValues.thankuLabel}"
                 style="@style/displayStyle" />
 
             <TextView

@@ -13,6 +13,7 @@ class MyValues (
     var crushLabel: String = "Who is your secret crush?",
     var messageLabel: String = "What is your message for me?",
     var doneLabel: String = "DONE",
+    var thankuLabel: String = "Thank you for answering!",
     var name: String = "",
     var nickname: String = "",
     var age: String = "",
