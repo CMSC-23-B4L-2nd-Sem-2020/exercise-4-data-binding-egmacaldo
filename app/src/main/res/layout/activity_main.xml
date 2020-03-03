@@ -21,7 +21,7 @@
             <TextView
                 android:id="@+id/greeting"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
@@ -29,6 +29,32 @@
                 android:textAlignment="center"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/nameQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:text="@={myValues.nameLabel}"
+                android:textAlignment="viewStart"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/nameHint"
+                android:inputType="textPersonName"
+                android:text="@={myValues.name}"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp" />
+
         </LinearLayout>
     </ScrollView>
 </layout>
