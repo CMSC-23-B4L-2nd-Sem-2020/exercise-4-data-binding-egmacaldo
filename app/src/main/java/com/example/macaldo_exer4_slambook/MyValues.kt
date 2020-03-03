@@ -22,15 +22,5 @@ class MyValues (
     var course: String = "",
     var dream: String = "",
     var crush: String = "",
-    var message: String = "",
-    var nameDisplay: String = "",
-    var nicknameDisplay: String = "",
-    var ageDisplay: String = "",
-    var birthdayDisplay: String = "",
-    var phoneNumberDisplay: String = "",
-    var emailDisplay: String = "",
-    var courseDisplay: String = "",
-    var dreamDisplay: String = "",
-    var crushDisplay: String = "",
-    var messageDisplay: String = ""
+    var message: String = ""
 )
