@@ -22,14 +22,5 @@ class MyValues (
     var course: String = "",
     var dream: String = "",
     var crush: String = "",
-    var message: String = "",
-    var nameHint: String = "Enter Name",
-    var nicknameHint: String = "Enter Nickname",
-    var ageHint: String = "Enter Age",
-    var birthdayHint: String = "Enter Birthday",
-    var phoneNumberHint: String = "Enter Phone Number",
-    var emailHint: String = "Enter Email Address",
-    var courseHint: String = "Enter Course",
-    var dreamHint: String = "Enter Dream",
-    var crushHint: String = "Enter Name of Crush"
+    var message: String = ""
 )
