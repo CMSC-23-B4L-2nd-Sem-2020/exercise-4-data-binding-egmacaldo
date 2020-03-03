@@ -26,8 +26,18 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayInput(view: View) {
         binding. apply {
-//            myName?.nickname = nicknameEdit.text.toString()
-//            invalidateAll()
+            myValues?.name = name.text.toString()
+            myValues?.nickname = nickname.text.toString()
+            myValues?.age= age.text.toString()
+            myValues?.birthday = birthday.text.toString()
+            myValues?.phoneNumber = phone.text.toString()
+            myValues?.email = email.text.toString()
+            myValues?.course = course.text.toString()
+            myValues?.dream= dream.text.toString()
+            myValues?.crush = crush.text.toString()
+            myValues?.message = message.text.toString()
+            invalidateAll()
+            greeting.visibility = View.GONE
             nickname.visibility = View.GONE
             name.visibility = View.GONE
             age.visibility = View.GONE
@@ -59,6 +69,7 @@ class MainActivity : AppCompatActivity() {
             dreamDisplay.visibility = View.VISIBLE
             crushDisplay.visibility = View.VISIBLE
             messageDisplay.visibility = View.VISIBLE
+            thankuDisplay.visibility = View.VISIBLE
         }
 
         // Hide the keyboard.

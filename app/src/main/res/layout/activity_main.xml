@@ -39,8 +39,7 @@
             <EditText
                 android:id="@+id/name"
                 style="@style/editTextStyle"
-                android:hint="@string/nameHint"
-                android:text="@={myValues.name}" />
+                android:hint="@string/nameHint" />
 
             <TextView
                 android:id="@+id/nicknameQ"
@@ -50,8 +49,7 @@
             <EditText
                 android:id="@+id/nickname"
                 style="@style/editTextStyle"
-                android:hint="@string/nicknameHint"
-                android:text="@={myValues.nickname}" />
+                android:hint="@string/nicknameHint"/>
 
             <TextView
                 android:id="@+id/ageQ"
@@ -61,8 +59,7 @@
             <EditText
                 android:id="@+id/age"
                 style="@style/editTextStyle"
-                android:hint="@string/ageHint"
-                android:text="@={myValues.age}" />
+                android:hint="@string/ageHint" />
 
             <TextView
                 android:id="@+id/birthdayQ"
@@ -72,8 +69,7 @@
             <EditText
                 android:id="@+id/birthday"
                 style="@style/editTextStyle"
-                android:hint="@string/birthdayHint"
-                android:text="@={myValues.birthday}" />
+                android:hint="@string/birthdayHint" />
 
             <TextView
                 android:id="@+id/phoneQ"
@@ -83,8 +79,7 @@
             <EditText
                 android:id="@+id/phone"
                 style="@style/editTextStyle"
-                android:hint="@string/phoneHint"
-                android:text="@={myValues.phoneNumber}" />
+                android:hint="@string/phoneHint" />
 
             <TextView
                 android:id="@+id/emailQ"
@@ -94,8 +89,7 @@
             <EditText
                 android:id="@+id/email"
                 style="@style/editTextStyle"
-                android:hint="@string/emailHint"
-                android:text="@={myValues.email}" />
+                android:hint="@string/emailHint" />
 
             <TextView
                 android:id="@+id/courseQ"
@@ -105,19 +99,17 @@
             <EditText
                 android:id="@+id/course"
                 style="@style/editTextStyle"
-                android:hint="@string/courseHint"
-                android:text="@={myValues.course}" />
+                android:hint="@string/courseHint" />
 
             <TextView
                 android:id="@+id/dreamQ"
                 style="@style/labelStyle"
-                android:text="@={myValues.dreamLabel}" />
+                android:text="@={myValues.dreamLabel}"/>
 
             <EditText
                 android:id="@+id/dream"
                 style="@style/editTextStyle"
-                android:hint="@string/dreamHint"
-                android:text="@={myValues.dream}" />
+                android:hint="@string/dreamHint" />
 
             <TextView
                 android:id="@+id/crushQ"
@@ -127,8 +119,7 @@
             <EditText
                 android:id="@+id/crush"
                 style="@style/editTextStyle"
-                android:hint="@string/crushHint"
-                android:text="@={myValues.crush}" />
+                android:hint="@string/crushHint" />
 
             <TextView
                 android:id="@+id/messageQ"
@@ -137,8 +128,7 @@
 
             <EditText
                 android:id="@+id/message"
-                style="@style/multilineStyle"
-                android:text="@={myValues.message}" />
+                style="@style/multilineStyle" />
 
             <Button
                 android:id="@+id/done_button"
@@ -152,21 +142,13 @@
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/ageDisplay"
-                style="@style/displayStyle"
-                android:text="@={myValues.age}" />
 
-            <TextView
-                android:id="@+id/thankuDisplay"
-                style="@style/displayStyle"
-                android:text="@={myValues.thankuLabel}" />
 
             <TextView
                 android:id="@+id/nameDisplay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="64dp"
+                android:layout_marginTop="48dp"
                 android:text="@={myValues.name}"
                 android:textAlignment="center"
                 android:textColor="@android:color/darker_gray"
@@ -178,6 +160,11 @@
                 android:id="@+id/nicknameDisplay"
                 style="@style/displayStyle"
                 android:text="@={myValues.nickname}" />
+
+            <TextView
+                android:id="@+id/ageDisplay"
+                style="@style/displayStyle"
+                android:text="@={myValues.age}" />
 
             <TextView
                 android:id="@+id/birthdayDisplay"
@@ -214,6 +201,19 @@
                 android:id="@+id/messageDisplay"
                 style="@style/displayStyle"
                 android:text="@={myValues.message}" />
+
+            <TextView
+                android:id="@+id/thankuDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@={myValues.thankuLabel}"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:visibility="gone" />
 
 
         </LinearLayout>
