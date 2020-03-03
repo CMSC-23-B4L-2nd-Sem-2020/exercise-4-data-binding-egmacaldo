@@ -129,6 +129,16 @@
                 android:text="@={myValues.crush}"
                 style="@style/editTextStyle" />
 
+            <TextView
+                android:id="@+id/messageQ"
+                android:text="@={myValues.messageLabel}"
+                style="@style/labelStyle" />
+
+            <EditText
+                android:id="@+id/message"
+                android:text="@={myValues.message}"
+                style="@style/editTextStyle" />
+
         </LinearLayout>
     </ScrollView>
 </layout>
