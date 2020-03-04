@@ -9,23 +9,30 @@ import androidx.databinding.DataBindingUtil
 import com.example.macaldo_exer4_slambook.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    // reference to the binding object
     private lateinit var binding: ActivityMainBinding
 
+    // reference the data class
     private val myValues: MyValues = MyValues()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
+        // for the access for the xml
         binding.myValues = myValues
 
+        // add a listener to the done button
         binding.doneButton.setOnClickListener {
             displayInput(it)
         }
     }
 
+    // function to display only the inputs of the user
     private fun displayInput(view: View) {
+        // apply using the binding
         binding. apply {
+            // assign the text inputted by the user to the variables for the display
             myValues?.name = name.text.toString()
             myValues?.nickname = nickname.text.toString()
             myValues?.age= age.text.toString()
@@ -37,6 +44,7 @@ class MainActivity : AppCompatActivity() {
             myValues?.crush = crush.text.toString()
             myValues?.message = message.text.toString()
             invalidateAll()
+            // change visibilities of the views
             greeting.visibility = View.GONE
             nickname.visibility = View.GONE
             name.visibility = View.GONE

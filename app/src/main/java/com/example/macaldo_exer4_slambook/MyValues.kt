@@ -1,6 +1,8 @@
 package com.example.macaldo_exer4_slambook
 
+// data class to hold values for the display of text and user input
 class MyValues (
+    // values for the labels which will not be changed
     var greeting: String = "Hello!",
     var nameLabel: String = "Name",
     var nicknameLabel: String = "Nickname",
@@ -14,6 +16,7 @@ class MyValues (
     var messageLabel: String = "What is your message for me?",
     var doneLabel: String = "DONE",
     var thankuLabel: String = "Thank you for answering!",
+    // variables to hold the user input
     var name: String = "",
     var nickname: String = "",
     var age: String = "",
