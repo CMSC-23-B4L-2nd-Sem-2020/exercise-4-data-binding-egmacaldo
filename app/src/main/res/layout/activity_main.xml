@@ -19,130 +19,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/greeting"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:paddingTop="16dp"
-                android:paddingBottom="16dp"
-                android:text="@={myValues.greeting}"
-                android:textAlignment="center"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="36sp" />
-
-            <TextView
-                android:id="@+id/nameQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.nameLabel}" />
-
-            <EditText
-                android:id="@+id/name"
-                style="@style/editTextStyle"
-                android:hint="@string/nameHint" />
-
-            <TextView
-                android:id="@+id/nicknameQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.nicknameLabel}" />
-
-            <EditText
-                android:id="@+id/nickname"
-                style="@style/editTextStyle"
-                android:hint="@string/nicknameHint"/>
-
-            <TextView
-                android:id="@+id/ageQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.ageLabel}" />
-
-            <EditText
-                android:id="@+id/age"
-                style="@style/editTextStyle"
-                android:hint="@string/ageHint" />
-
-            <TextView
-                android:id="@+id/birthdayQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.birthdayLabel}" />
-
-            <EditText
-                android:id="@+id/birthday"
-                style="@style/editTextStyle"
-                android:hint="@string/birthdayHint" />
-
-            <TextView
-                android:id="@+id/phoneQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.phoneNumberLabel}" />
-
-            <EditText
-                android:id="@+id/phone"
-                style="@style/editTextStyle"
-                android:hint="@string/phoneHint" />
-
-            <TextView
-                android:id="@+id/emailQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.emailLabel}" />
-
-            <EditText
-                android:id="@+id/email"
-                style="@style/editTextStyle"
-                android:hint="@string/emailHint" />
-
-            <TextView
-                android:id="@+id/courseQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.courseLabel}" />
-
-            <EditText
-                android:id="@+id/course"
-                style="@style/editTextStyle"
-                android:hint="@string/courseHint" />
-
-            <TextView
-                android:id="@+id/dreamQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.dreamLabel}"/>
-
-            <EditText
-                android:id="@+id/dream"
-                style="@style/editTextStyle"
-                android:hint="@string/dreamHint" />
-
-            <TextView
-                android:id="@+id/crushQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.crushLabel}" />
-
-            <EditText
-                android:id="@+id/crush"
-                style="@style/editTextStyle"
-                android:hint="@string/crushHint" />
-
-            <TextView
-                android:id="@+id/messageQ"
-                style="@style/labelStyle"
-                android:text="@={myValues.messageLabel}" />
-
-            <EditText
-                android:id="@+id/message"
-                style="@style/multilineStyle" />
-
-            <Button
-                android:id="@+id/done_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:background="#E91E63"
-                android:text="@={myValues.doneLabel}"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold" />
-
-
 
             <TextView
                 android:id="@+id/nameDisplay"
@@ -154,7 +30,7 @@
                 android:textColor="@android:color/darker_gray"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                tools:visibility="gone" />
+                android:visibility="gone" />
 
             <TextView
                 android:id="@+id/nicknameDisplay"
@@ -213,7 +89,130 @@
                 android:textColor="@android:color/darker_gray"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                tools:visibility="gone" />
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/greeting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:text="@={myValues.greeting}"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/nameQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.nameLabel}" />
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/editTextStyle"
+                android:hint="@string/nameHint" />
+
+            <TextView
+                android:id="@+id/nicknameQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.nicknameLabel}" />
+
+            <EditText
+                android:id="@+id/nickname"
+                style="@style/editTextStyle"
+                android:hint="@string/nicknameHint" />
+
+            <TextView
+                android:id="@+id/ageQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.ageLabel}" />
+
+            <EditText
+                android:id="@+id/age"
+                style="@style/editTextStyle"
+                android:hint="@string/ageHint" />
+
+            <TextView
+                android:id="@+id/birthdayQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.birthdayLabel}" />
+
+            <EditText
+                android:id="@+id/birthday"
+                style="@style/editTextStyle"
+                android:hint="@string/birthdayHint" />
+
+            <TextView
+                android:id="@+id/phoneQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.phoneNumberLabel}" />
+
+            <EditText
+                android:id="@+id/phone"
+                style="@style/editTextStyle"
+                android:hint="@string/phoneHint" />
+
+            <TextView
+                android:id="@+id/emailQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.emailLabel}" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/editTextStyle"
+                android:hint="@string/emailHint" />
+
+            <TextView
+                android:id="@+id/courseQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.courseLabel}" />
+
+            <EditText
+                android:id="@+id/course"
+                style="@style/editTextStyle"
+                android:hint="@string/courseHint" />
+
+            <TextView
+                android:id="@+id/dreamQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.dreamLabel}" />
+
+            <EditText
+                android:id="@+id/dream"
+                style="@style/editTextStyle"
+                android:hint="@string/dreamHint" />
+
+            <TextView
+                android:id="@+id/crushQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.crushLabel}" />
+
+            <EditText
+                android:id="@+id/crush"
+                style="@style/editTextStyle"
+                android:hint="@string/crushHint" />
+
+            <TextView
+                android:id="@+id/messageQ"
+                style="@style/labelStyle"
+                android:text="@={myValues.messageLabel}" />
+
+            <EditText
+                android:id="@+id/message"
+                style="@style/multilineStyle" />
+
+            <Button
+                android:id="@+id/done_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="#E91E63"
+                android:text="@={myValues.doneLabel}"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
