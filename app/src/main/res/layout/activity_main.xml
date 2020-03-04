@@ -55,6 +55,7 @@
             <TextView
                 android:id="@+id/emailDisplay"
                 style="@style/displayStyle"
+                android:inputType="textEmailSubject"
                 android:text="@={myValues.email}" />
 
             <TextView
@@ -111,7 +112,8 @@
             <EditText
                 android:id="@+id/name"
                 style="@style/editTextStyle"
-                android:hint="@string/nameHint" />
+                android:hint="@string/nameHint"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/nicknameQ"
@@ -121,7 +123,8 @@
             <EditText
                 android:id="@+id/nickname"
                 style="@style/editTextStyle"
-                android:hint="@string/nicknameHint" />
+                android:hint="@string/nicknameHint"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/ageQ"
@@ -131,7 +134,8 @@
             <EditText
                 android:id="@+id/age"
                 style="@style/editTextStyle"
-                android:hint="@string/ageHint" />
+                android:hint="@string/ageHint"
+                android:inputType="number" />
 
             <TextView
                 android:id="@+id/birthdayQ"
@@ -141,7 +145,8 @@
             <EditText
                 android:id="@+id/birthday"
                 style="@style/editTextStyle"
-                android:hint="@string/birthdayHint" />
+                android:hint="@string/birthdayHint"
+                android:inputType="date" />
 
             <TextView
                 android:id="@+id/phoneQ"
@@ -151,7 +156,8 @@
             <EditText
                 android:id="@+id/phone"
                 style="@style/editTextStyle"
-                android:hint="@string/phoneHint" />
+                android:hint="@string/phoneHint"
+                android:inputType="phone" />
 
             <TextView
                 android:id="@+id/emailQ"
@@ -161,17 +167,20 @@
             <EditText
                 android:id="@+id/email"
                 style="@style/editTextStyle"
-                android:hint="@string/emailHint" />
+                android:hint="@string/emailHint"
+                android:inputType="textEmailAddress" />
 
             <TextView
                 android:id="@+id/courseQ"
                 style="@style/labelStyle"
+                android:inputType="textEmailAddress"
                 android:text="@={myValues.courseLabel}" />
 
             <EditText
                 android:id="@+id/course"
                 style="@style/editTextStyle"
-                android:hint="@string/courseHint" />
+                android:hint="@string/courseHint"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/dreamQ"
@@ -181,7 +190,8 @@
             <EditText
                 android:id="@+id/dream"
                 style="@style/editTextStyle"
-                android:hint="@string/dreamHint" />
+                android:hint="@string/dreamHint"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/crushQ"
@@ -191,7 +201,8 @@
             <EditText
                 android:id="@+id/crush"
                 style="@style/editTextStyle"
-                android:hint="@string/crushHint" />
+                android:hint="@string/crushHint"
+                android:inputType="textPersonName" />
 
             <TextView
                 android:id="@+id/messageQ"
@@ -200,7 +211,9 @@
 
             <EditText
                 android:id="@+id/message"
-                style="@style/multilineStyle" />
+                style="@style/multilineStyle"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black" />
 
             <Button
                 android:id="@+id/done_button"
